@@ -1,6 +1,8 @@
 # food_classifier
 
-A new Flutter project.
+### Introduction to Machine Learning 11110CS460200
+
+Team18 Final Project
 
 ## Getting Started
 
