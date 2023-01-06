@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // TODOTODOTODO
   // OUR MODEL DISPLAY
   // void foodClassifier(final File image)async{
-  //   var result = await 
+  //   var result = await
   // }
 
   void pickCameraImage() async {
@@ -101,9 +101,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget _selectionButtons() => Column(
         children: [
           _mediumVerticalSpacer(),
-          _selectionPhoto('Capture Photo', () {}),
+          _selectionPhoto('Capture Photo', pickCameraImage),
           _mediumVerticalSpacer(),
-          _selectionPhoto('Select Photo', () {}),
+          _selectionPhoto('Select Photo', pickGalleryImage),
         ],
       );
 
