@@ -61,6 +61,8 @@ flutter:
    - assets/labels.txt
    - assets/cnn_model.tflite
    - assets/model_unquant.tflite
+   - assets/labels2.txt
+   - assets/model_unquant2.tflite
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

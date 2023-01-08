@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void loadModel() async {
     String? res = await Tflite.loadModel(
-        model: 'assets/model_unquant.tflite', labels: 'assets/labels.txt');
+        model: 'assets/model_unquant2.tflite', labels: 'assets/labels2.txt');
     setState(() {
       _res = res;
     });
